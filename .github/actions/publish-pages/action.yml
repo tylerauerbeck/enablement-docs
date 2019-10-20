@@ -1,0 +1,5 @@
+name: "Publish exercises to Github Pages"
+description: "An action that will Publish to GH Pages if certain files have changed"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

@@ -1,0 +1,9 @@
+on: merge
+name: GH Pages Check
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: exercise-publish-check
+        uses: ./.github/actions/publish-pages
